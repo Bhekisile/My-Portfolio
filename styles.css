@@ -7,6 +7,7 @@ body {
   width: 375px;
   height: 718px;
   background: #fff;
+  margin-bottom: 10px;
 }
 
 .nav_bar {
@@ -129,6 +130,14 @@ body {
   box-sizing: border-box;
   border: 1px solid #dfe1e6;
   margin-bottom: 88px;
+}
+
+.work_container {
+  display: grid;
+  grid-template-rows: 596px;
+  grid-gap: 10px;
+  position: relative;
+  top: 10px;
 }
 
 .image_section2 {
@@ -291,25 +300,10 @@ body {
   margin-bottom: 88px;
 }
 
-/* Section 5 */
-
-.border_section5 {
-  width: 327px;
-  height: 596px;
-  box-sizing: border-box;
-  padding: 16px;
-  gap: 12px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-}
-
 /* Section 6 */
 
 .heading_resume {
-  width: 327;
+  width: 327px;
   height: 101px;
   font-weight: 700;
   font-size: 40px;
@@ -320,10 +314,11 @@ body {
 }
 
 .container_resume {
+  display: flex;
+  flex-direction: column;
   width: 375px;
   height: 1263px;
   background: #fff;
-  margin-top: 114px;
 }
 
 .resume_border {
