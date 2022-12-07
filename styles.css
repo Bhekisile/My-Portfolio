@@ -125,7 +125,6 @@ body {
   height: 552px;
   background: #fff;
   border-radius: 16px;
-  margin-top: 57px;
   margin: 24px;
   box-sizing: border-box;
   border: 1px solid #dfe1e6;
@@ -137,7 +136,7 @@ body {
   height: 220px;
   background: url(blog_drbl_4x.png);
   border-radius: 8px;
-  padding: 16px 16px 0px 16px;
+  padding: 16px 16px 1px 16px;
 }
 
 .tonic {
@@ -207,7 +206,7 @@ body {
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
-  margin-bottom: 0px 108px 100px 130px;
+  margin-bottom: 1px 108px 100px 130px;
 }
 
 .nav-button {
@@ -248,7 +247,6 @@ body {
   border-radius: 16px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  box-sizing: border-box;
   margin-bottom: 88px;
 }
 
@@ -317,7 +315,7 @@ body {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  margin-top: 0px;
+  margin-top: 1px;
   margin-bottom: 6px;
 }
 
@@ -341,19 +339,19 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin-top: 0px;
-  padding-left: 0px;
+  margin-top: 1px;
+  padding-left: 1px;
 }
 
 .social_resume ul {
-  width:200px;
+  width: 200px;
   height: 40px;
   display: flex;
   list-style: none;
   padding: 0;
   column-gap: 25px;
   padding-left: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
 }
 
 .nav-button-resume {
@@ -364,8 +362,8 @@ body {
   border: 1px solid #6070ff;
   border-radius: 8px;
   box-sizing: border-box;
-  margin-left: 0px;
-  margin-bottom: 0px;
+  margin-left: 1px;
+  margin-bottom: 1px;
 }
 
 .resume-button {
@@ -417,7 +415,7 @@ body {
   height: 24px;
   font-weight: 500;
   font-size: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
 }
 
 .lang_button {
@@ -425,8 +423,8 @@ body {
 }
 
 .flex_bar {
- display: flex;
- justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .flex_frame,
@@ -437,7 +435,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #000;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
 }
 
 .chevron {
