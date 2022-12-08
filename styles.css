@@ -1,9 +1,6 @@
-body {
+.container {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-}
-
-.container {
   width: 375px;
   height: 718px;
   background: #fff;
@@ -122,6 +119,8 @@ body {
 /* section 2 */
 
 .border_section2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
   width: 327px;
   height: 552px;
   background: #fff;
@@ -290,6 +289,8 @@ body {
 /* Section 4 */
 
 .border_section4 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
   width: 327px;
   height: 552px;
   background: #fff;
@@ -312,6 +313,8 @@ body {
 }
 
 .container_resume {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
   display: flex;
   flex-direction: column;
   width: 375px;
