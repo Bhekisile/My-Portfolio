@@ -484,40 +484,55 @@
 .contact-section h3 {
   font-size: 40px;
   margin-bottom: 0;
+  height: fit-content;
 }
 
 .contact-section p {
   font-size: 20px;
   font-weight: 400;
   width: 327px;
-  height: 102px;
+  height: fit-content;
   text-align: center;
   padding: 1rem;
-  margin-bottom: 80px;
-  margin-top: 0;
+  margin-bottom: 0;
+  margin-top: 0.8rem;
 }
 
 .contact-section input {
-  width: 327px;
+  width: 311px;
   height: 48px;
+  outline: none;
   border-radius: 10px;
+  padding-left: 16px;
   border-color: transparent;
   margin-bottom: 20px;
   font-size: 17px;
 }
 
 .contact-section textarea {
-  width: 327px;
-  height: 170px;
+  width: 311px;
+  height: 155px;
   border-radius: 10px;
   border-color: transparent;
+  padding-left: 16px;
+  padding-top: 15px;
   margin-bottom: 20px;
   font-size: 17px;
+  resize: none;
+  outline: none;
 }
 
 .contact-section button {
+  font-family: "Poppins", sans-serif;
+font-size: 17px;
   width: 140px;
   height: 48px;
   border-radius: 8px;
   border-color: transparent;
+  color: #6070ff;
+  background-color: #fff;
+}
+
+input:focus {
+  
 }
