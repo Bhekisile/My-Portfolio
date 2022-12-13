@@ -471,18 +471,53 @@
   border-radius: 100px 0 0 0 ;
   color: #fff;
   align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  padding-top: 50px;
 }
 
 .contact-section form {
   display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 
 .contact-section h3 {
   font-size: 40px;
+  margin-bottom: 0;
 }
 
 .contact-section p {
   font-size: 20px;
+  font-weight: 400;
+  width: 327px;
+  height: 102px;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 80px;
+  margin-top: 0;
+}
+
+.contact-section input {
+  width: 327px;
+  height: 48px;
+  border-radius: 10px;
+  border-color: transparent;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.contact-section textarea {
+  width: 327px;
+  height: 170px;
+  border-radius: 10px;
+  border-color: transparent;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.contact-section button {
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+  border-color: transparent;
 }
