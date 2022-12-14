@@ -189,15 +189,6 @@ I would like to express my gratitude to Microverse and the team for all of their
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ <a name="faq"></a>
-
-
-- **[Who will use this repo or project]**
-
-  - [This repository can be used by any person who likes coding and wants to improve this project.]
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
