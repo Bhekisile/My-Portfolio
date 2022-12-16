@@ -1,21 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: #e5e5e5;
+}
+
 .container {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  width: 375px;
+  width: 100%;
   height: 718px;
   background: #fff;
   margin-bottom: 10px;
+  background-image: url(./image/header-shapes.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 0 100px;
 }
 
 .nav_bar {
-  width: 327px;
+  width: 98%;
   height: 40px;
   display: flex;
   align-items: center;
   list-style: none;
   border: 1px solid transparent;
-  margin-bottom: 50px;
   padding-top: 10px 12px;
+  position: fixed;
+}
+
+nav a {
+  text-decoration: none;
+  color: blue;
+}
+
+.catch-text {
+  padding-left: 20%;
 }
 
 .myLogo {
@@ -25,24 +50,13 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  padding-left: 12px;
+  padding-left: 10%;
   color: #6070ff;
 }
 
-.contact {
-  width: 24px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
-  justify-content: flex-end;
-}
-
-.img_background {
-  background-image: url("image/header-shapes.svg");
-  position: absolute;
-  height: 587.15px;
+nav ul {
+  display: none;
+  
 }
 
 .header {
@@ -52,7 +66,6 @@
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  padding-left: 24px;
   margin-top: 114px;
 }
 
@@ -61,9 +74,8 @@
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  width: 327px;
+  width: 85%;
   height: 146px;
-  padding-left: 24px;
 }
 
 .connect {
@@ -73,7 +85,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  padding-left: 24px;
+  padding-left: 0;
 }
 
 .social ul {
@@ -83,7 +95,7 @@
   list-style: none;
   padding: 0;
   column-gap: 25px;
-  padding-left: 24px;
+  padding-left: 0;
 }
 
 .twitter {
@@ -121,7 +133,7 @@
 .border_section2 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  width: 327px;
+  width: 100%;
   height: 552px;
   background: #fff;
   border-radius: 16px;
@@ -132,10 +144,10 @@
 }
 
 .work_container {
-  display: grid;
-  grid-template-rows: 596px;
-  grid-gap: 10px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   top: 10px;
 }
 
@@ -145,6 +157,10 @@
   background: url(blog_drbl_4x.png);
   border-radius: 8px;
   padding: 16px 16px 1px 16px;
+}
+
+.desktop {
+  display: none;
 }
 
 .tonic {
@@ -552,3 +568,56 @@
   color: #5e6c84;
   background: #fff;
 }
+
+@media (min-width: 768px) {
+  nav {
+    /*padding-left: 7%;*/
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  nav ul {
+   display: flex;
+   justify-content: space-between;
+   width: 30%;
+   list-style: none;
+   margin-right: 10%;
+  } 
+
+  nav img {
+    display: none;
+  }
+
+  .vanish {
+    display: none;
+  }
+
+  .container {
+    background-image: url(./image/Header\ bg.svg);
+    background-size: contain; 
+    height: 650;
+  }
+
+  .header {
+    font-size: 40px;
+    padding-top: 60px;
+    height: fit-content;
+    margin-bottom: 0px;
+  }
+
+  .content {
+    width: 78%;
+    font-size: 17px;
+    height: fit-content;
+    margin-top: 0;
+  }
+  
+  .desktop {
+    width: 100%;
+    height: 448px;
+  }
+  
+  
+}
+
+ 
