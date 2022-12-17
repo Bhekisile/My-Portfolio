@@ -60,7 +60,6 @@ nav a {
 
 nav ul {
   display: none;
-  
 }
 
 .header {
@@ -179,7 +178,6 @@ nav ul {
 
 .flex-container ul {
   display: flex;
-  /*justify-content: space-between;*/
   gap: 8px;
   list-style: none;
   line-height: 16px;
@@ -244,7 +242,6 @@ nav ul {
   border: 1px solid #6070ff;
   border-radius: 8px;
   box-sizing: border-box;
-  /*position: absolute;*/
   color: #396df2;
   padding: 12px;
   gap: 10px;
@@ -264,10 +261,10 @@ nav ul {
   color: #396df2;
   margin-top: 1rem;
   margin-left: 1rem;
-  height: 48px;
-  width: 124px;
+  /*height: 48px;*/
+  /*width: 124px;*/
   border-radius: 8px;
-  border: 1px solid #6070ff;
+  /*border: 1px solid #6070ff;*/
 }
 
 /* Section 3 */
@@ -582,17 +579,15 @@ nav ul {
 
 @media (min-width: 768px) {
   nav {
-    /*padding-left: 7%;*/
     font-family: 'Poppins', sans-serif;
-
   }
 
   nav ul {
-   display: flex;
-   justify-content: space-between;
-   width: 30%;
-   list-style: none;
-   margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;
+    margin-right: 10%;
   } 
 
   nav img {
@@ -653,7 +648,7 @@ nav ul {
   }
 
   .image_section2 img {
-   width: 100%; 
+    width: 100%; 
   }
   
   .flex-container {
@@ -662,11 +657,11 @@ nav ul {
   }
 
   .flex-container button {
-  margin-top: 1rem;
-  margin-left: 1rem;
-  height: 48px;
-  width: 124px;
-  border-radius: 8px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    height: 48px;
+    width: 124px;
+    border-radius: 8px;
   }
 
   .flex-container ul {
@@ -680,13 +675,13 @@ nav ul {
   }
 
   .canopy {
-   width: 95%;
-   padding-left: 0;
-   margin-left: 1rem;
+    width: 95%;
+    padding-left: 0;
+    margin-left: 1rem;
   }
 
   .work_container > :nth-child(even){
-  flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 
   .container_resume {
@@ -733,13 +728,13 @@ nav ul {
   }
 
   .languages {
-    width: 582px;
+    padding-right: 280px;
   }
 
   .contact-section p {
-  width: 40%;
-  font-size: 17px;
-  padding: 0;
+    width: 40%;
+    font-size: 17px;
+    padding: 0;
   }
 
   .contact-section {
@@ -751,5 +746,3 @@ nav ul {
     display: block;
   }
 }
-
- 
