@@ -43,6 +43,10 @@ nav a {
   padding-left: 20%;
 }
 
+.desk {
+  display: none;
+}
+
 .myLogo {
   flex: 1;
   width: 76px;
@@ -175,7 +179,8 @@ nav ul {
 
 .flex-container ul {
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
+  gap: 8px;
   list-style: none;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -598,6 +603,13 @@ nav ul {
     display: none;
   }
 
+  .desktop {
+    display: block;
+    height: 325px;
+    width: 100%;
+    padding-left: 6px;
+  }
+
   .container {
     background-image: url(./image/Header\ bg.svg);
     background-size: contain; 
@@ -657,6 +669,11 @@ nav ul {
   border-radius: 8px;
   }
 
+  .flex-container ul {
+    width: 316px;
+    gap: 2px;
+  }
+
   .tonic {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -690,7 +707,6 @@ nav ul {
 
   .border_skills {
     width: 50%;
-    background-color: greenyellow;
   }
 
   .content_resume {
@@ -707,10 +723,20 @@ nav ul {
   .language ul {
     display: flex;
     flex-direction: row;
+    gap: 12px;
+  }
+
+  .lang_button {
+    /*padding-top: 175px;*/
+    padding-right: 6px;
+    width: 582px;
+  }
+
+  .languages {
+    width: 582px;
   }
 
   .contact-section p {
-  background-color: powderblue;
   width: 40%;
   font-size: 17px;
   padding: 0;
@@ -718,6 +744,11 @@ nav ul {
 
   .contact-section {
     background-image: url(./image/Header\ bg.svg);
+    margin-top: -365px;
+  }
+
+  .desk {
+    display: block;
   }
 }
 
