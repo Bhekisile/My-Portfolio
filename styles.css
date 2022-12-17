@@ -56,6 +56,11 @@ nav a {
   line-height: 20px;
   padding-left: 10%;
   color: #6070ff;
+  transition: font-size 2s;
+}
+
+.myLogo:hover {
+  font-size: 90px;
 }
 
 nav ul {
@@ -70,6 +75,11 @@ nav ul {
   line-height: 52px;
   color: #172b4d;
   margin-top: 114px;
+  transition: font-size 2s;
+}
+
+.header:hover {
+  font-size: 60px
 }
 
 .content {
