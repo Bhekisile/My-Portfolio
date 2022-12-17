@@ -56,6 +56,11 @@ nav a {
   line-height: 20px;
   padding-left: 10%;
   color: #6070ff;
+  transition: width 2s;
+}
+
+.myLogo:hover {
+  width: 90px;
 }
 
 nav ul {
@@ -70,6 +75,11 @@ nav ul {
   line-height: 52px;
   color: #172b4d;
   margin-top: 114px;
+  transition: font-size 2s;
+}
+
+.header:hover {
+  font-size: 60px;
 }
 
 .content {
@@ -589,6 +599,38 @@ nav ul {
 
   nav img {
     display: none;
+  }
+
+  top_nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 73px;
+    /*border: 1px solid;*/
+  }
+  
+  .top_nav a {
+  width: 76px;
+  height: 20px;
+  margin-left: 155px;
+  margin-top: 25px;
+  }
+  
+  .nav_bar ul {
+  display: flex;
+  list-style: none;
+  margin-right: 154px;
+  width: 259px;
+  height: 40px;
+  margin-top: 25px;
+  gap: 8px;
+  height: 20px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+  
   }
 
   .vanish {

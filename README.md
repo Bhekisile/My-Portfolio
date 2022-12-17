@@ -27,7 +27,7 @@
 
 # 📖 [My Portfolio] <a name="about-project"></a>
 
-**[My Portfolio]** is a portfolio project that includes header and headline section that were extracted from Figma template files.
+**[My Portfolio]** is the full version of portfolio project that includes main and work section together with contact form extracted from Figma template files.
 
 ## 🛠 Built With <a name="built-with"></a>
 
