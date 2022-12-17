@@ -366,7 +366,7 @@ nav ul {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin-top: 1px;
+  margin-top: 24px;
   padding-left: 1px;
 }
 
@@ -589,7 +589,7 @@ nav ul {
     font-family: 'Poppins', sans-serif;
   }
 
-  nav ul {
+  .nav_bar ul {
     display: flex;
     justify-content: space-between;
     width: 30%;
@@ -599,38 +599,6 @@ nav ul {
 
   nav img {
     display: none;
-  }
-
-  top_nav {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 73px;
-    /*border: 1px solid;*/
-  }
-  
-  .top_nav a {
-  width: 76px;
-  height: 20px;
-  margin-left: 155px;
-  margin-top: 25px;
-  }
-  
-  .nav_bar ul {
-  display: flex;
-  list-style: none;
-  margin-right: 154px;
-  width: 259px;
-  height: 40px;
-  margin-top: 25px;
-  gap: 8px;
-  height: 20px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
-  
   }
 
   .vanish {
@@ -733,6 +701,7 @@ nav ul {
   .resume_border {
     width: 35%;
     margin-left: 0;
+    margin-top: 36px;
   }
 
   .resume_border button {
@@ -751,6 +720,7 @@ nav ul {
   .heading_resume {
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 12px;
     height: fit-content;
   }
 
@@ -758,6 +728,7 @@ nav ul {
     display: flex;
     flex-direction: row;
     gap: 12px;
+    margin-bottom: 0;
   }
 
   .lang_button {
@@ -765,8 +736,23 @@ nav ul {
     width: 582px;
   }
 
+  .flex_frame,
+  .flex_skill {
+    margin-top: 0;
+  }
+
+  .resume_border .mybutton {
+    width: 162px;
+    margin-top: 48px;
+  }
+
+  .separator {
+    width: 684px;
+  }
+
   .languages {
     padding-right: 280px;
+    padding-top: 12px;
   }
 
   .contact-section p {
@@ -786,5 +772,9 @@ nav ul {
 
   .flex-container h2 {
     padding-left: 12px;
+  }
+
+  .social_resume ul {
+    margin-top: 24px;
   }
 }
