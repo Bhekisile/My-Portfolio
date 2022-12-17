@@ -250,7 +250,6 @@ nav ul {
 }
 
 .mybutton {
-  border: none;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -586,7 +585,7 @@ nav ul {
     width: 30%;
     list-style: none;
     margin-right: 10%;
-  } 
+  }
 
   nav img {
     display: none;
@@ -605,7 +604,7 @@ nav ul {
 
   .container {
     background-image: url(./image/Header\ bg.svg);
-    background-size: contain; 
+    background-size: contain;
     height: 650;
   }
 
@@ -613,7 +612,7 @@ nav ul {
     font-size: 40px;
     padding-top: 60px;
     height: fit-content;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .content {
@@ -622,7 +621,7 @@ nav ul {
     height: fit-content;
     margin-top: 0;
   }
-  
+
   .border_section2 {
     display: flex;
     flex-direction: row;
@@ -646,9 +645,9 @@ nav ul {
   }
 
   .image_section2 img {
-    width: 100%; 
+    width: 100%;
   }
-  
+
   .flex-container {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -678,7 +677,7 @@ nav ul {
     margin-left: 1rem;
   }
 
-  .work_container > :nth-child(even){
+  .work_container > :nth-child(even) {
     flex-direction: row-reverse;
   }
 
@@ -709,7 +708,7 @@ nav ul {
 
   .heading_resume {
     margin-top: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     height: fit-content;
   }
 
